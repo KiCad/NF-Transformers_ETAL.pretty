@@ -1,12 +1,12 @@
-(module NF-Transformer_1-1_P1200_ETAL_RevA_28Aug2012 (layer F.Cu)
+(module NF-Transformer_1-1_P1200_ETAL (layer F.Cu)
   (at 0 0)
   (descr "NF-Transformer, 1:1, ETAL P1200,")
   (tags "NF-Transformer, 1:1, ETAL P1200,")
-  (fp_text reference TR (at -0.01016 -11.6205) (layer F.SilkS)
-    (effects (font (thickness 0.3048)))
+  (fp_text reference NF-Transformer_1-1_P1200_ETAL (at -0.01016 -11.6205) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value NF-Transformer_1-1_P1200_ETAL_RevA_28Aug2012 (at -0.07112 12.05992) (layer F.SilkS) hide
-    (effects (font (thickness 0.3048)))
+  (fp_text value VAL** (at -0.07112 12.05992) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 5.80136 0.44958) (end 6.79196 0.44958) (layer F.SilkS) (width 0.15))
   (fp_line (start 6.79196 0.44958) (end 6.30174 1.05918) (layer F.SilkS) (width 0.15))
@@ -207,7 +207,7 @@
   (pad 4 thru_hole circle (at -6.35 3.81) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at 6.35 -3.81) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 6.35 3.81) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (model NF-Transformer_ETAL_Wings3d_RevA_28Aug2012/NF-Transformer_ETAL_P1200_P3356_P3324_Faktor03937_RevA_30Aug2012.wrl
+  (model NF-Transformers_ETAL/NF-Transformer_1-1_P1200_ETAL.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

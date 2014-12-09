@@ -1,13 +1,13 @@
-(module NF-Transformer_P2781_ETAL_HandSoldering_RevA_31Aug2012 (layer F.Cu)
+(module NF-Transformer_P2781_ETAL_HandSoldering (layer F.Cu)
   (at 0 0)
   (descr "NF-Transformer, ETAL, P2781, SMD, Handsoldering")
   (tags "NF-Transformer, ETAL, P2781, SMD, Handsoldering,")
   (attr smd)
-  (fp_text reference TR (at 0 -7.00024) (layer F.SilkS)
-    (effects (font (thickness 0.3048)))
+  (fp_text reference NF-Transformer_P2781_ETAL_HandSoldering (at 0 -7.00024) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value NF-Transformer_P2781_ETAL_HandSoldering_RevA_31Aug2012 (at 0 7.50062) (layer F.SilkS) hide
-    (effects (font (thickness 0.3048)))
+  (fp_text value VAL** (at 0 7.50062) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 6.49986 4.50088) (end 6.49986 4.0005) (layer F.SilkS) (width 0.15))
   (fp_line (start 6.49986 -4.50088) (end 6.49986 -4.0005) (layer F.SilkS) (width 0.15))
@@ -87,7 +87,7 @@
   (pad 5 smd rect (at 6.04012 0) (size 3.50012 1.39954) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 6.04012 -2.54) (size 3.50012 1.39954) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd oval (at 1.99898 0 90) (size 3.50012 1.39954) (layers F.Adhes))
-  (model NF-Transformer_ETAL_Wings3d_RevA_28Aug2012/NF-Transformer_ETAL_P2781_Faktor03937_RevA_30Aug2012.wrl
+  (model NF-Transformers_ETAL/NF-Transformer_P2781_ETAL_HandSoldering.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

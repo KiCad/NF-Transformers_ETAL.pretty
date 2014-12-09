@@ -1,13 +1,13 @@
-(module NF-Transformer_P3191_ETAL_RevA_31Aug2012 (layer F.Cu)
+(module NF-Transformer_P3191_ETAL (layer F.Cu)
   (at 0 0)
   (descr "NF-Transformer, ETAL, P3191, SMD,")
   (tags "NF-Transformer, ETAL, P3191, SMD,")
   (attr smd)
-  (fp_text reference TR (at 0 -7.00024) (layer F.SilkS)
-    (effects (font (thickness 0.3048)))
+  (fp_text reference NF-Transformer_P3191_ETAL (at 0 -7.00024) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value NF-Transformer_P3191_ETAL_RevA_31Aug2012 (at 0 6.49986) (layer F.SilkS) hide
-    (effects (font (thickness 0.3048)))
+  (fp_text value VAL** (at 0 6.49986) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -3.44932 -2.96926) (end -3.0988 -3.2004) (layer F.SilkS) (width 0.15))
   (fp_line (start -3.0988 -3.2004) (end -3.0988 -2.24028) (layer F.SilkS) (width 0.15))
@@ -96,7 +96,7 @@
   (pad 7 smd oval (at 1.99898 0 90) (size 3.50012 1.50114) (layers F.Adhes))
   (pad 7 smd oval (at -1.99898 0 90) (size 3.50012 1.50114) (layers F.Adhes))
   (pad 2 smd rect (at -5.40004 0) (size 1.99898 1.50114) (layers F.Cu F.Paste F.Mask))
-  (model NF-Transformer_ETAL_Wings3d_RevA_28Aug2012/NF-Transformer_ETAL_P3188_P3191_Faktor03937_RevA_30Aug2012.wrl
+  (model NF-Transformers_ETAL/NF-Transformer_P3191_ETAL.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
