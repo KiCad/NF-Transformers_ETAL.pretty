@@ -3,10 +3,10 @@
   (descr "NF-Reansformer, ETAL, P3000, SMD, Handsoldering,")
   (tags "NF-Reansformer, ETAL, P3000, SMD, Handsoldering,")
   (attr smd)
-  (fp_text reference NF-Transformer_P3000_ETAL_HandSoldering (at 0 -9.99998) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -9.99998) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 9.99998) (layer F.SilkS) hide
+  (fp_text value NF-Transformer_P3000_ETAL_HandSoldering (at 0 9.99998) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -7.16026 2.71018) (end -6.27126 2.70002) (layer F.SilkS) (width 0.15))
@@ -133,7 +133,7 @@
   (pad 11 smd rect (at -4.16052 -6.14934) (size 1.3208 2.99974) (layers F.Cu F.Paste F.Mask))
   (pad 12 smd rect (at -6.70052 -6.14934) (size 1.3208 2.99974) (layers F.Cu F.Paste F.Mask))
   (pad 13 smd oval (at 5.00126 0) (size 1.50114 2.99974) (layers F.Adhes))
-  (model NF-Transformers_ETAL/NF-Transformer_P3000_ETAL_HandSoldering.wrl
+  (model NF-Transformers_ETAL.3dshapes/NF-Transformer_P3000_ETAL_HandSoldering.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

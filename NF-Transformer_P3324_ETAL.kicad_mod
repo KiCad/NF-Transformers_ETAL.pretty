@@ -2,10 +2,10 @@
   (at 0 0)
   (descr "NF-Transformer, ETAL P3324,")
   (tags "NF-Transformer, ETAL P3324,")
-  (fp_text reference NF-Transformer_P3324_ETAL (at -0.01016 -11.6205) (layer F.SilkS)
+  (fp_text reference REF** (at -0.01016 -11.6205) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at -0.07112 12.05992) (layer F.SilkS) hide
+  (fp_text value NF-Transformer_P3324_ETAL (at -0.07112 12.05992) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 6.27126 7.17042) (end 6.27126 8.17118) (layer F.SilkS) (width 0.15))
@@ -198,7 +198,7 @@
   (pad 4 thru_hole circle (at -6.35 3.81) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at 6.35 -3.81) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 6.35 3.81) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (model NF-Transformers_ETAL/NF-Transformer_P3324_ETAL.wrl
+  (model NF-Transformers_ETAL.3dshapes/NF-Transformer_P3324_ETAL.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
